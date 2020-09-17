@@ -1,0 +1,137 @@
+html{
+    background-color: #ffffff;
+    font-family: arial, sans-serif;
+}
+body{
+    display:block;
+}
+*{
+    box-sizing: border-box;
+}
+#navbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+.navbar-element a{
+    font-size: 13px;
+    color: #343434;
+    opacity: 0.87;
+    text-decoration: none;
+    padding: 8px;
+    
+}
+
+.navbar-element a:hover{
+    text-decoration: underline;
+}
+
+#navbar-left, #navbar-right{
+    display: flex;
+    align-items: center;
+}
+
+#navbar-right img{
+    padding: 8px;
+}
+#navbar-right #apps{
+    border-radius: 0%;
+}
+#navbar-right #user{
+    border-radius: 50%;
+}
+#google-logo{
+    display:block;
+    margin: 10vh auto 0px auto;
+    padding: 30px;
+}
+#search-field{
+    height: 45px;
+    max-width: 584px;
+    position: relative;
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
+}
+#search-field:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+#search-field img{
+    position: relative;
+    top: 8px;
+    opacity: 0.3;
+}
+#search-box{
+    width: 90%;
+    height: 30px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 5px;
+    font-size: 16px;
+}
+#button-field{
+    padding: 18px 0px;
+    text-align: center;
+}
+
+.buttons{
+    height: 36px;
+    padding: 0 16px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    margin: 11px 4px;
+    font-size: 14px;
+    color: #5F6368;
+}
+
+.buttons:hover {
+    border: 1px solid #c6c6c6;
+    color: #000000;
+}
+
+#location{
+    height: 40px;
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+    color: rgba(0, 0, 0, 0.54); 
+    padding: 0px 27px;
+    position: absolute;
+    bottom: 0px;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: rgb(95, 99, 104);
+    position: absolute;
+    bottom: -40px;
+    padding: 0px 27px;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.footer-element a{
+    color: #5f6368;
+    text-decoration: none;
+}
+
+.footer-element a:hover{
+    text-decoration: underline;
+}
+#footer-left a {
+    padding-right: 27px;
+}
+
+#footer-right a {
+    padding-left: 27px;
+}
+
